@@ -3,4 +3,65 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #5ce4ca;
+  background-image: url("../assets/img/image 17.png");
+  background-position: center;
+  position: relative;
+}
+.hero .navbar {
+  max-width: 1190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+  margin: 0px auto;
+  padding: 32px 10px;
+}
+.hero .navbar .nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+.hero .navbar .nav-logo .dialect {
+  color: #003d31;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: none;
+}
+.hero .navbar .nav-listing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 38px;
+  flex-direction: row;
+  max-width: 400px;
+  color: #003d31;
+}
+.hero .navbar .nav-listing .nav-a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #003d31;
+}
+.hero .navbar .nav-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+.hero .navbar .nav-btn .btn {
+  padding: 8px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }/*# sourceMappingURL=import.css.map */
