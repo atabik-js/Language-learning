@@ -64,4 +64,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+.hero .navbar .nav-btn .login {
+  color: #003d31;
+  background-color: transparent;
+  border: 1px solid #003d31;
+  border-radius: 4px;
+}
+.hero .navbar .nav-btn .signup {
+  color: white;
+  background-color: #003d31;
+  border: 1px solid #003d31;
+  border-radius: 4px;
 }/*# sourceMappingURL=import.css.map */
