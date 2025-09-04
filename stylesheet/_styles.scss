@@ -69,4 +69,118 @@
       }
     }
   }
+
+  .hero-main {
+    @include flex(center, center, 0px, column);
+    padding: 64px 358px 100px;
+
+    .dialect-brings {
+      background-color: white;
+      padding: 16px 38px;
+      color: $secondaryColor;
+      font-weight: 500;
+      font-size: 72px;
+      line-height: 82px;
+      text-align: center;
+      border-radius: 22px;
+    }
+
+    .hero-text {
+      @include flex(flex-start, flex-start, 20px);
+
+      .language {
+        margin-top: 20px;
+        color: $secondaryColor;
+        background-color: $langColor;
+        padding: 16px 38px;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 72px;
+        line-height: 82px;
+        text-align: center;
+        border-radius: 22px;
+      }
+
+      .learning {
+        margin-top: 20px;
+        background-color: white;
+        padding: 16px 38px;
+        color: $secondaryColor;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 82px;
+        text-align: center;
+        border-radius: 22px;
+      }
+    }
+    .hero-p {
+      margin-top: 28px;
+      max-width: 570px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .hero-buttons {
+      @include flex(flex-start, flex-start, 20px);
+      margin-top: 48px;
+
+      .spanish-btn {
+        border: none;
+        background-color: white;
+        padding: 16px 20px;
+        border-radius: 6px;
+        @include flex(flex-start, center, 0px);
+        .flag {
+          margin-right: 8px;
+        }
+
+        .spanish {
+          color: $secondaryColor;
+          margin-right: 38px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+
+      .start {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        background-color: $secondaryColor;
+        padding: 16px 36px;
+      }
+    }
+  }
+
+  .earth {
+    position: absolute;
+    top: 170px;
+    left: 204px;
+  }
+
+  .happyface {
+    position: absolute;
+    right: 82px;
+    bottom: 312px;
+  }
+
+  .uniona {
+    position: absolute;
+    left: 190px;
+    top: 574px;
+  }
+
+  .unionx {
+    position: absolute;
+    top: 606px;
+    right: 236px;
+  }
 }

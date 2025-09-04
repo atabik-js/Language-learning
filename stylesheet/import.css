@@ -76,4 +76,121 @@
   background-color: #003d31;
   border: 1px solid #003d31;
   border-radius: 4px;
+}
+.hero .hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-direction: column;
+  padding: 64px 358px 100px;
+}
+.hero .hero-main .dialect-brings {
+  background-color: white;
+  padding: 16px 38px;
+  color: #003d31;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  border-radius: 22px;
+}
+.hero .hero-main .hero-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: row;
+}
+.hero .hero-main .hero-text .language {
+  margin-top: 20px;
+  color: #003d31;
+  background-color: #fffaa4;
+  padding: 16px 38px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  border-radius: 22px;
+}
+.hero .hero-main .hero-text .learning {
+  margin-top: 20px;
+  background-color: white;
+  padding: 16px 38px;
+  color: #003d31;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  border-radius: 22px;
+}
+.hero .hero-main .hero-p {
+  margin-top: 28px;
+  max-width: 570px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.hero .hero-main .hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: row;
+  margin-top: 48px;
+}
+.hero .hero-main .hero-buttons .spanish-btn {
+  border: none;
+  background-color: white;
+  padding: 16px 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+}
+.hero .hero-main .hero-buttons .spanish-btn .flag {
+  margin-right: 8px;
+}
+.hero .hero-main .hero-buttons .spanish-btn .spanish {
+  color: #003d31;
+  margin-right: 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.hero .hero-main .hero-buttons .start {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #003d31;
+  padding: 16px 36px;
+}
+.hero .earth {
+  position: absolute;
+  top: 170px;
+  left: 204px;
+}
+.hero .happyface {
+  position: absolute;
+  right: 82px;
+  bottom: 312px;
+}
+.hero .uniona {
+  position: absolute;
+  left: 190px;
+  top: 574px;
+}
+.hero .unionx {
+  position: absolute;
+  top: 606px;
+  right: 236px;
 }/*# sourceMappingURL=import.css.map */
