@@ -193,4 +193,43 @@
   position: absolute;
   top: 606px;
   right: 236px;
+}
+
+.about {
+  margin: 170px 126px 0px;
+  padding: 0px 10px;
+}
+.about .about-main {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+}
+.about .about-main .about-text {
+  max-width: 570px;
+}
+.about .about-main .about-text .about-heading {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+}
+.about .about-main .about-text .about-heading .about-span {
+  color: #5ce4ca;
+}
+.about .about-main .about-text .about-firstp {
+  margin-top: 20px;
+  color: #596966;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.about .about-main .about-text .about-secondp {
+  margin-top: 16px;
+  color: #596966;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }/*# sourceMappingURL=import.css.map */

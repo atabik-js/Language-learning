@@ -184,3 +184,42 @@
     right: 236px;
   }
 }
+
+.about {
+  margin: 170px 126px 0px;
+  padding: 0px 10px;
+
+  .about-main {
+    max-width: 1170px;
+    @include flex(space-between, center, 0px);
+    .about-text {
+      max-width: 570px;
+      .about-heading {
+        color: $secondaryColor;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 52px;
+
+        .about-span {
+          color: $primaryColor;
+        }
+      }
+
+      .about-firstp {
+        margin-top: 20px;
+        color: $thirdColor;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      .about-secondp {
+        margin-top: 16px;
+        color: $thirdColor;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+}
