@@ -289,4 +289,50 @@
   color: #003d31;
   font-weight: 700;
   letter-spacing: 0%;
+}
+
+.feature2-main {
+  margin: 170px 124px 0px;
+  padding: 0px 10px;
+}
+.feature2-main .feature2 {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.feature2-main .feature2 .f2-text {
+  max-width: 570px;
+}
+.feature2-main .feature2 .f2-text .f2-heading {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+}
+.feature2-main .feature2 .f2-text .f2-heading .f2-span {
+  color: #5ce4ca;
+}
+.feature2-main .feature2 .f2-text .f2-firstp {
+  margin-top: 20px;
+  color: #596966;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.feature2-main .feature2 .f2-text .f2-btn {
+  background-color: #fffaa4;
+  color: #003d31;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 36px;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
 }/*# sourceMappingURL=import.css.map */

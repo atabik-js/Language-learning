@@ -270,3 +270,48 @@
     }
   }
 }
+
+.feature2-main {
+  margin: 170px 124px 0px;
+  padding: 0px 10px;
+
+  .feature2 {
+    max-width: 1170px;
+    @include flex(space-between, center, 0px);
+    .f2-text {
+      max-width: 570px;
+      .f2-heading {
+        color: $secondaryColor;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 52px;
+
+        .f2-span {
+          color: $primaryColor;
+        }
+      }
+
+      .f2-firstp {
+        margin-top: 20px;
+        color: $thirdColor;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      .f2-btn {
+        background-color: $langColor;
+        color: $secondaryColor;
+        border: none;
+        border-radius: 6px;
+        padding: 16px 36px;
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+    }
+  }
+}
