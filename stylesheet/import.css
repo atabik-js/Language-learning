@@ -335,4 +335,29 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.banner1-main {
+  margin-top: 170px;
+  padding: 100px 50px;
+  background-color: #ff7d7d;
+}
+.banner1-main .banner1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.banner1-main .banner1 .banner-a {
+  width: 34px;
+  height: 34px;
+}
+.banner1-main .banner1 .banner1-h3 {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=import.css.map */
