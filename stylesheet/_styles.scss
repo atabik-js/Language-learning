@@ -62,7 +62,7 @@
       }
 
       .signup {
-        color: white;
+        color: $whiteColor;
         background-color: $secondaryColor;
         border: 1px solid $secondaryColor;
         border-radius: 4px;
@@ -75,7 +75,7 @@
     padding: 64px 358px 100px;
 
     .dialect-brings {
-      background-color: white;
+      background-color: $whiteColor;
       padding: 16px 38px;
       color: $secondaryColor;
       font-weight: 500;
@@ -103,7 +103,7 @@
 
       .learning {
         margin-top: 20px;
-        background-color: white;
+        background-color: $whiteColor;
         padding: 16px 38px;
         color: $secondaryColor;
         font-weight: 500;
@@ -128,7 +128,7 @@
 
       .spanish-btn {
         border: none;
-        background-color: white;
+        background-color: $whiteColor;
         padding: 16px 20px;
         border-radius: 6px;
         @include flex(flex-start, center, 0px);
@@ -153,7 +153,7 @@
         text-align: center;
         border: none;
         border-radius: 6px;
-        color: white;
+        color: $whiteColor;
         background-color: $secondaryColor;
         padding: 16px 36px;
       }
@@ -334,6 +334,101 @@
       font-size: 36px;
       line-height: 46px;
       letter-spacing: 0%;
+    }
+  }
+}
+
+.review-main {
+  padding: 100px 134px;
+  background-color: $cardColor;
+
+  .review {
+    @include flex(space-between, center, 0px, column);
+
+    .review-text {
+      max-width: 570px;
+      margin: 0px 300px;
+      .review-h {
+        text-align: center;
+        color: $secondaryColor;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 52px;
+        letter-spacing: 0%;
+        .review-span {
+          color: $primaryColor;
+        }
+      }
+
+      .review-p {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+    }
+    .review-cards {
+      @include flex(flex-start, center, 30px);
+      margin-top: 70px;
+      .review-card {
+        background-color: $whiteColor;
+        padding: 40px 20px;
+        max-width: 370px;
+        border: none;
+        border-radius: 12px;
+
+        .review-intro {
+          @include flex(flex-start, center, 16px);
+          .intro-h {
+            color: $secondaryColor;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0%;
+          }
+          .intro-p {
+            color: $thirdColor;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0%;
+          }
+        }
+
+        .reviewmain-p {
+          margin-top: 28px;
+          color: $thirdColor;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0%;
+        }
+        .review-quotes {
+          @include flex(flex-start, center, 20px);
+          margin-top: 28px;
+
+          .review-line {
+            width: 282px;
+            height: 2px;
+            background-color: $lineColor;
+          }
+        }
+      }
+    }
+    .review-lines {
+      @include flex(center, center, 12px);
+      margin-top: 54px;
+      .small-lines {
+        width: 24px;
+        height: 4px;
+        background-color: $line2Color;
+      }
+
+      .active {
+        background-color: $secondaryColor;
+      }
     }
   }
 }
