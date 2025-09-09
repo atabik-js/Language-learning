@@ -473,4 +473,198 @@
 }
 .review-main .review .review-lines .active {
   background-color: #003d31;
+}
+
+.footer {
+  background: #fffae9;
+  padding: 100px 306px 34px;
+}
+.footer .footer-top {
+  border-bottom: 1px solid #596966;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.footer .footer-top .footer-h {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  letter-spacing: 0%;
+}
+.footer .footer-top .footer-h .question {
+  color: #5ce4ca;
+}
+.footer .footer-top .ftop-p {
+  margin-top: 20px;
+  color: #596966;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.footer .footer-top .ftop-p .faq {
+  font-weight: 500;
+  color: #003d31;
+}
+.footer .footer-top .ftop-p .email-a {
+  font-weight: 500;
+  color: #003d31;
+}
+.footer .footer-links {
+  margin: 56px 0px 54px 0px;
+  max-width: 825px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer .footer-links .column .footer-dialect {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.footer .footer-links .column .learn-lang {
+  margin-top: 24px;
+  color: #596966;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.footer .footer-bottom {
+  padding-top: 28px;
+  border-top: 1px solid #596966;
+}
+.footer .footer-bottom .site-lang {
+  color: #003d31;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.footer .footer-bottom .lang-main {
+  margin-top: 24px;
+  color: #596966;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.footer .footer-bottom .last-div {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer .footer-bottom .last-div .copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #596966;
+}
+.footer .footer-bottom .last-div .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.banner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 100px 134px;
+  background-color: #5ce4ca;
+}
+.banner2 .banner2-headings {
+  max-width: 472px;
+}
+.banner2 .banner2-headings .think {
+  max-width: 388px;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 38px;
+  background-color: white;
+  color: #003d31;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 52px;
+  letter-spacing: 0%;
+}
+.banner2 .banner2-headings .b2-lang {
+  border-radius: 12px;
+  border: none;
+  margin-top: 20px;
+  background-color: #fffaa4;
+  color: #003d31;
+  padding: 16px 38px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 52px;
+  letter-spacing: 0%;
+}
+.banner2 .banner2-btns {
+  max-width: 570px;
+}
+.banner2 .banner2-btns .banner2-p {
+  color: #003d31;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.banner2 .banner2-btns .b2-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 48px;
+}
+.banner2 .banner2-btns .b2-buttons .b2-spanish {
+  border: none;
+  background-color: white;
+  padding: 16px 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.banner2 .banner2-btns .b2-buttons .b2-spanish .b2-flag {
+  margin-right: 8px;
+}
+.banner2 .banner2-btns .b2-buttons .b2-spanish .b2-spannishtext {
+  color: #003d31;
+  margin-right: 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.banner2 .banner2-btns .b2-buttons .b2-start {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #003d31;
+  padding: 16px 36px;
 }/*# sourceMappingURL=import.css.map */
